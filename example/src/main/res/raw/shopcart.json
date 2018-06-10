@@ -1,0 +1,33 @@
+{
+
+  "code": 0,
+  "message": "OK",
+  "data":[
+    {
+      "id":1,
+      "title":"商品标题1",
+      "desc":"商品的详细描述1",
+      "price":1.00,
+      "count":2,
+      "thumb":"https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K/it/u=47228573,852647581&fm=202&src=2000&mola=new&crop=v1"
+    },
+    {
+      "id":2,
+      "title":"商品标题2",
+      "desc":"商品的详细描述2",
+      "price":1.00,
+      "count":2,
+      "thumb":"https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K/it/u=47228573,852647581&fm=202&src=2000&mola=new&crop=v1"
+    }
+  ,
+    {
+      "id":3,
+      "title":"商品标题3",
+      "desc":"商品的详细描述3",
+      "price":1.00,
+      "count":2,
+      "thumb":"https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K/it/u=47228573,852647581&fm=202&src=2000&mola=new&crop=v1"
+    }
+]
+
+}

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/top_layout"
+                />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_settle_adress"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/tv_settle_adress_phone_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="张三丰 13515554888"
+                    android:textColor="@color/we_chat_black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/tv_settle_adress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_settle_adress_phone_Name"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="北京朝阳区"
+                    android:textSize="12sp"/>
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:text="{fa-chevron-right}"/>
+
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_settle_goodslist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="5dp"
+                    android:text="商品总价"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_settle_goods_price_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="20dp"
+                    android:text="300"
+                    android:textColor="@color/main_red_text"
+                    android:textSize="16sp"
+
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_settle_way"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_arrow_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+
+                    android:text="配送方式"/>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_settle_way_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/icon_arrow"
+                    android:layout_toStartOf="@+id/icon_arrow"
+                    android:gravity="center"
+                    android:text="未设置"
+                    android:textSize="12sp"/>
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/icon_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="{fa-chevron-right}"/>
+
+
+            </RelativeLayout>
+
+
+            <include
+                layout="@layout/arrow_switch_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:text="需额外使用现金支付"/>
+
+                <TextView
+                    android:id="@+id/tv_settle_ohterPayPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="500元"
+                    android:textColor="@color/main_red_text"/>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_settle_wxpay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white">
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/tv_icon_settle_wx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:text="{fa-wechat}"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toEndOf="@+id/tv_icon_settle_wx"
+                    android:layout_toRightOf="@+id/tv_icon_settle_wx"
+                    android:text="微信支付"/>
+
+                <com.joanzapata.iconify.widget.IconTextView
+
+                    android:id="@+id/tv_settle_icon_choose_wxpay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:text="{fa-check-circle}"
+                    android:textSize="18sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_settle_alipay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white">
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/tv_icon_settle_alipay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:text="{icon-ali-pay}"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toEndOf="@+id/tv_icon_settle_alipay"
+                    android:layout_toRightOf="@+id/tv_icon_settle_alipay"
+                    android:text="支付宝支付"/>
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/tv_settle_icon_choose_alipay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:text="{fa-check-circle}"
+                    android:textSize="18sp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <!--合计部分-->
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:minHeight="50dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="合计(含运费)"
+                android:textColor="@android:color/darker_gray"
+                tools:ignore="HardcodedText"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_settle_total_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="￥0.01"
+                android:textColor="@color/app_main"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_settle_pay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/app_main"
+            android:gravity="center"
+            android:text="支付"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</RelativeLayout>

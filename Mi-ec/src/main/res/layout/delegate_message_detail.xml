@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+
+    <include layout="@layout/top_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/delegate_meesage_detail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="更新公告"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/delegate_meesage_detail_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="2016-12-11 16:30"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/delegate_meesage_detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="系统已升级至1.1.1版本，请尽快下载更新"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

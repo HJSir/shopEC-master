@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/app_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/top_layout"
+        />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+      >
+
+
+        <EditText
+            style="@drawable/et_style"
+               android:background="@android:color/white"
+            android:layout_margin="5dp"
+            android:id="@+id/et_delegate_accredit_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/bt_delegate_accredit_submit"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/bt_delegate_accredit_submit"
+            android:layout_toStartOf="@+id/bt_delegate_accredit_submit"
+            android:hint="输入姓名或者手机号查找"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/bt_delegate_accredit_submit"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/circle_all_yellow"
+            android:text="查询"
+            android:textColor="@android:color/black"/>
+
+
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/rv_search_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

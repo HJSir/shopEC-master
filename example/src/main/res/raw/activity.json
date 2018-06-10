@@ -1,0 +1,34 @@
+{
+  "type": "2",
+  "code": 0,
+  "message": "OK",
+  "total": 4,
+  "page_size": 5,
+  "data": [
+    {
+      "surplus":"422",
+      "goodsImage": "http://hey.tangguimi.com/heyMgr/file/goods_15075402145533a00e598.jpg",
+      "goodsId": "2",
+      "goodsName": "好儿优悬浮双核婴儿纸尿片",
+      "goodsPrice": "236",
+      "goodsStartTime": "2018-10-16",
+      "goodsEndTime": "2018-11-16",
+      "goodsInfo":"好儿优悬浮双核婴儿纸尿片S码-包（1包）（80片）干反防渗！"
+    ,
+      "unit":"包"
+    },
+    {
+      "surplus":"500",
+      "goodsImage": "http://hey.tangguimi.com/heyMgr/file/goods_15075409595293a513709.jpg",
+      "goodsId": "2",
+      "goodsName": "好儿优悬浮双核婴儿纸尿片",
+      "goodsPrice": "500",
+      "goodsStartTime": "2018-10-16",
+      "goodsEndTime": "2018-11-16",
+      "goodsInfo":"好儿优悬浮双核婴儿纸尿片M码-包（1包）（72片）"
+    ,
+      "unit":"包"
+    }
+
+  ]
+}

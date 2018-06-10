@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_weight="1"
+
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp">
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/icon_bottom_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="搜索树"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_bottom_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索树"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

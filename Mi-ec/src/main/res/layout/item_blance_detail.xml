@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="1dp"
+    android:layout_height="60dp">
+
+    <TextView
+        android:textColor="@color/we_chat_black"
+        android:id="@+id/tv_blancedetail_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:layout_alignParentTop="true"
+        android:text="购买物品花费"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:textColor="@color/we_chat_black"
+        android:id="@+id/tv_blancedetail_time"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|left"
+        android:text="2017-11-12"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/tv_blancedetail_cost"
+        android:textStyle="bold"
+        android:textColor="@color/we_chat_black"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="-30"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

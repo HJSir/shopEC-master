@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+
+    >
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/tv_multiple_activity_image"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+
+        android:background="@android:color/white"/>
+
+    <!--<android.support.v7.widget.AppCompatTextView-->
+        <!--android:textColor="@color/we_chat_black"-->
+        <!--android:id="@+id/tv_multiple_activity_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="left|center"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:text="美国海鲜"-->
+        <!--android:textSize="14sp"-->
+
+
+        <!--/>-->
+
+    <android.support.v7.widget.AppCompatTextView
+android:layout_margin="3dp"
+        android:id="@+id/tv_multiple_activity_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:text="美国海鲜"
+        android:textSize="14sp"
+    android:textColor="@color/we_chat_black"
+
+        />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:id="@+id/tv_multiple_activity_price"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:gravity="left|center"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:text="199.00"-->
+            <!--android:textColor="@android:color/holo_red_light"-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:gravity="left|center"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:text="仅剩："-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:id="@+id/tv_multiple_activity_surplus"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:gravity="left|center"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:text="500件"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@android:color/holo_red_light"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_margin="3dp"
+        android:id="@+id/tv_multiple_activity_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:text="2018-6-16结束"
+        android:textSize="12sp"
+
+        />
+
+</LinearLayout>

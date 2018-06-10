@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/top_layout"/>
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+  android:id="@+id/et_refund_reason"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/et_style"
+        android:hint="您为什么退货呢？"
+
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:textSize="14sp"/>
+    <EditText
+
+        android:id="@+id/et_refund_tel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="phone"
+        android:hint="请输入联系电话"
+
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="请选择退款银行卡"
+        android:textColor="@color/we_chat_black"
+
+        android:textSize="16sp"/>
+
+    <Spinner
+        android:id="@+id/sp_refund_bankcardchoose"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/bt_refund_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/circle_all_yellow"
+        android:text="提交"/>
+
+<TextView
+    android:layout_marginLeft="10dp"
+    android:textSize="12sp"
+    android:text="造成损失概不负责，会扣一定费用，具体退款请留意消息"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

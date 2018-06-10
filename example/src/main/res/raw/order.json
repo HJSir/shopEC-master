@@ -1,0 +1,75 @@
+{
+  "code": "0000",
+  "message": "OK",
+  "data": [
+    {
+      "freight":"0",
+      "orderQuantity":"1",
+      "orderTime":"2017-12-16 16:30",
+      "typeNmae":"好而优",
+      "orderStatus": "1",
+      "orderId":"2312454782",
+      "shouldPayAll":"220",
+      "orderItem": [
+    {
+      "goodsImage":"https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/dmas/pic/item/110e0cf3d7ca7bcbf2bc12bab6096b63f724a865.jpg",
+      "quantity": "2",
+      "goodsPrice": "1255",
+      "goodsName": "苹果电脑",
+      "goodsId": "1"
+    }
+  ]
+},
+    {
+      "freight":"20",
+      "orderQuantity":"2",
+      "orderTime":"2017-12-16 16:30",
+      "typeNmae":"好而优",
+      "orderStatus": "4",
+      "orderId":"2313156785984",
+      "shouldPayAll":"5000",
+      "orderItem": [
+        {
+          "goodsImage":"https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/dmas/pic/item/110e0cf3d7ca7bcbf2bc12bab6096b63f724a865.jpg",
+          "quantity": "1",
+          "goodsPrice": "1",
+          "goodsName": "苹果笔记本",
+          "goodsId":"1"
+        },
+        {
+          "goodsImage":"https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/dmas/pic/item/110e0cf3d7ca7bcbf2bc12bab6096b63f724a865.jpg",
+          "quantity": "1",
+          "goodsPrice": "1",
+          "goodsName": "苹果笔记本",
+          "goodsId": "1"
+        }
+      ]
+    },
+    {
+      "freight":"20",
+      "orderQuantity":"2",
+      "orderTime":"2017-12-16 16:30",
+      "typeNmae":"好而优",
+      "orderStatus": "3",
+      "orderId":"2232321321",
+      "shouldPayAll":"5000",
+      "orderItem": [
+        {
+          "goodsImage":"https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/dmas/pic/item/110e0cf3d7ca7bcbf2bc12bab6096b63f724a865.jpg",
+          "quantity": "1",
+          "goodsPrice": "2399",
+          "goodsName": "苹果笔记本",
+          "goodsId":"1"
+        },
+        {
+          "goodsImage":"https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/dmas/pic/item/110e0cf3d7ca7bcbf2bc12bab6096b63f724a865.jpg",
+          "quantity": "1",
+          "goodsPrice": "23999",
+          "goodsName": "苹果笔记本",
+          "goodsId": "1"
+        }
+      ]
+    }
+]
+
+}

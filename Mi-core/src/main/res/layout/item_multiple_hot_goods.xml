@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/tv_multiple_hot_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_multiple_hot_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="美国海鲜"
+            android:textColor="@color/we_chat_black"
+            android:textSize="14sp"
+
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_multiple_hot_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="美国海鲜"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_multiple_hot_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="left|center"
+        android:text="199.00"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="14sp"
+
+        />
+
+</RelativeLayout>

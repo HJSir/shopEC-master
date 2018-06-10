@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:layout_gravity="center"
+        android:textSize="30sp"
+
+        android:text="{fa-comments}"
+        android:background="@drawable/circle_all_lowblue"
+        android:id="@+id/tv_arrow_layout_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+          android:layout_toRightOf="@+id/tv_arrow_layout_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_arrow_layout_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="标题"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_arrow_layout_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+
+            android:text="标题"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="@drawable/circle_all_yellow_dark"
+        android:id="@+id/icon_arrow_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/icon_arrow"
+        android:layout_alignBottom="@+id/icon_arrow"
+        android:layout_toLeftOf="@+id/icon_arrow"
+        android:layout_toStartOf="@+id/icon_arrow"
+        android:gravity="center"
+
+        android:textColor="@color/white"/>
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/icon_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="{fa-chevron-right}"/>
+
+
+</RelativeLayout>

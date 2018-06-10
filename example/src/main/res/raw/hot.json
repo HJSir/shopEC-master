@@ -1,0 +1,41 @@
+{
+  "type": "3",
+  "code": 0,
+  "message": "OK",
+  "total": 4,
+  "page_size": 5,
+  "data": [
+    {
+      "goodsImage": "http://hey.tangguimi.com/heyMgr/file/goods_150754143111425dc1569.jpg",
+      "goodsId": "2",
+      "goodsName": "好儿优婴儿纸尿裤",
+      "goodsPrice": "133",
+      "goodsInfo": "安全、舒适、健康",
+      "unit": "包"
+    },
+    {
+      "goodsImage": "http://hey.tangguimi.com/heyMgr/file/goods_1507541009591b0cf6aa9.jpg",
+      "goodsId": "2",
+      "goodsName": "好儿优婴儿纸尿片",
+      "goodsPrice": "155",
+      "goodsInfo": "妈妈再也不用怕我晚上尿裤子了",
+      "unit": "包"
+    },
+    {
+      "goodsImage": "http://hey.tangguimi.com/heyMgr/file/goods_1509438220753bd2bd6de.jpg",
+      "goodsId": "2",
+      "goodsName": "好儿优文化衫（女）",
+      "goodsPrice": "200",
+      "goodsInfo": "好而优专属文化衫，漂亮时尚大方",
+      "unit": "件"
+    },
+    {
+      "goodsImage": "http://hey.tangguimi.com/heyMgr/file/goods_15020738112416d8cb865.png",
+      "goodsId": "2",
+      "goodsName": "好儿优婴儿手口湿纸巾",
+      "goodsPrice": "122",
+      "goodsInfo": "居家必备、走过路过不要错过",
+      "unit": "件"
+    }
+  ]
+}

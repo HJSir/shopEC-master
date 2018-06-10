@@ -1,0 +1,59 @@
+{
+
+  "code": 0,
+  "message": "OK",
+  "data":
+    {
+      "id":1,
+      "headImageUrl":"https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K/it/u=47228573,852647581&fm=202&src=2000&mola=new&crop=v1",
+      "goods":[
+        {
+          "goods_id":3,
+          "goods_thumb":"https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1538825427.png",
+          "goods_name":"品牌名"
+        },
+        {
+          "goods_id":4,
+          "goods_thumb":"https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1538825427.png",
+          "goods_name":"品牌名"
+        },
+        {
+          "goods_id":5,
+          "goods_thumb":"https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1538825427.png",
+          "goods_name":"品牌名"
+        },
+        {
+          "goods_id":6,
+          "goods_thumb":"https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1538825427.png",
+          "goods_name":"品牌名"
+        },
+        {
+          "goods_id":7,
+          "goods_thumb":"https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1538825427.png",
+          "goods_name":"品牌名"
+        },
+        {
+          "goods_id":8,
+          "goods_thumb":"https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1538825427.png",
+          "goods_name":"品牌名"
+        },
+        {
+          "goods_id":9,
+          "goods_thumb":"https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1538825427.png",
+          "goods_name":"品牌名"
+        }
+
+      ]
+
+
+    }
+
+
+
+
+
+
+
+
+
+}

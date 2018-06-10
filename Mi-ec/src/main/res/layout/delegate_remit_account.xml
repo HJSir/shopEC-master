@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/top_layout"/>
+
+
+    <EditText
+
+        android:id="@+id/tv_remit_account_size"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="number|numberDecimal"
+        android:hint="请输入申请金额"
+
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/bt_remit_account_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/circle_all_yellow"
+        android:text="提交"/>
+
+
+</LinearLayout>

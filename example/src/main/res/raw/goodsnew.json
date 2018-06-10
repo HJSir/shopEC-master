@@ -1,0 +1,23 @@
+{
+  "type": "1",
+  "code": 0,
+  "message": "OK",
+  "total": 4,
+  "page_size": 5,
+  "data": [
+    {
+
+      "goodsImage": "http://img5.imgtn.bdimg.com/it/u=3750986228,2243850421&fm=27&gp=0.jpg",
+      "goodsId": "2"
+
+
+
+    },
+    {
+
+      "goodsImage": "http://img1.imgtn.bdimg.com/it/u=2649524933,3968626344&fm=27&gp=0.jpg",
+      "goodsId": "2"
+
+    }
+  ]
+}

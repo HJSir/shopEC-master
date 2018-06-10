@@ -1,0 +1,46 @@
+{
+  "code": 1,
+  "message": "OK",
+
+  "data": {
+
+    "thumb":"http://pic71.nipic.com/file/20150610/13549908_104823135000_2.jpg",
+  "goodsId": 4,
+  "name": "好而优尿不湿",
+  "price": 5,
+  "description": "尿不湿中的战斗机、长效持久",
+  "skip_url": "http://www.baidu.com",
+
+    "banners":[
+     "http://hey.tangguimi.com/heyMgr/file/goods_15014715202691ab1a1df.jpg",
+
+    "http://hey.tangguimi.com/heyMgr/file/goods_1501471507410fab3679a.jpg",
+
+     "http://hey.tangguimi.com/heyMgr/file/goods_1501471550202831bf4dc.jpg",
+
+      "http://hey.tangguimi.com/heyMgr/file/goods_1501471575856be94d43a.jpg"
+
+    ],
+  "tabs":[
+
+    {
+      "name":"商品介绍",
+      "pictures":[
+        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527266138854&di=906ac529bc170cef90041415ad1843d5&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0176815544ea760000019ae9fa5167.jpg%401280w_1l_2o_100sh.png"
+      ]
+
+
+    },
+    {
+      "name":"基本参数",
+      "pictures":[
+        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527266214679&di=9a1f2b172b633a3ee30c1badf7802f90&imgtype=0&src=http%3A%2F%2Fi4.hexunimg.cn%2F2015-04-15%2F174964984.jpg"
+      ]
+
+
+    }
+
+  ]
+
+}
+}

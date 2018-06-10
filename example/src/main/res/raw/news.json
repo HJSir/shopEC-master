@@ -1,0 +1,43 @@
+{
+  "type":"5",
+  "code": 0,
+  "message": "OK",
+  "total": 4,
+  "page_size": 5,
+  "data": [
+
+    {
+      "newsId":6,
+      "newsInfo":"【原创】纸尿裤界的“iphone8”居然是这么过的节【9-10好儿优VIP客户答谢会】",
+
+      "imageUrl":  "http://hey.tangguimi.com/heyMgr/file/goods_1509087568297f44ea610.png",
+      "skip_url":"https://mp.weixin.qq.com/s?__biz=MzU4NjExMTYxOQ==&mid=2247483765&idx=1&sn=5623c7e9b4d1d4c0fdaa537d7ca0834a&chksm=fd810e99caf6878f0af3d4d85bdd08abcb68732c24580c82c26595e23d0224611231a4997686&mpshare=1&scene=23&srcid=0911RkjsK1l3aLFIpRxG3oFR#rd"
+    },
+    {
+      "newsId":7,
+      "newsInfo":"【原创】是时候，给你们看看我背后的势力了···【海蓝丝带集团成立】",
+
+      "imageUrl":  "http://hey.tangguimi.com/heyMgr/file/goods_1509087662846b9bace9a.png",
+      "skip_url":"https://mp.weixin.qq.com/s?__biz=MzU4NjExMTYxOQ==&mid=2247483738&idx=1&sn=985c9d5d9beff8573712b86c58858fbb&chksm=fd810eb6caf687a0135fe31ad9e7037b019cdb3c87f366390761a1384e192c4f645084672b4e&mpshare=1&scene=23&srcid=0911oiiOthQcuZDlyjodSEcA#rd"
+    },
+    {
+      "newsId":8,
+      "newsInfo":"我，一枚纸尿裤中的扛把子【8-27好儿优首场沙龙】",
+
+      "imageUrl":  "http://hey.tangguimi.com/heyMgr/file/goods_1509087706515230aecbe.png",
+      "skip_url":"https://mp.weixin.qq.com/s?__biz=MzU4NjExMTYxOQ==&mid=2247483713&idx=1&sn=80bf3c45a82761814107169cce9fcbc0&chksm=fd810eadcaf687bba1b8ffbe6cf74aef12fcd931a1dbcc6fc8ed9941fa9f69519263ab141c18&mpshare=1&scene=23&srcid=0911S91PFqOYYBlTxe2SVFrZ#rd"
+    },
+    {
+      "id":8,
+      "newsInfo":"测试用1",
+      "imageUrl":  "http://pic71.nipic.com/file/20150610/13549908_104823135000_2.jpg",
+      "skip_url":"http://www.baidu.com"
+    }
+
+
+
+
+
+
+  ]
+}

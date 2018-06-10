@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_delegate_search"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="horizontal">
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="{fa-search}"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et_sort_search"
+
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:background="@android:color/white"
+            android:cursorVisible="true"
+            android:gravity="center_vertical"
+            android:textCursorDrawable="@null"
+            android:hint="搜索"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="搜索"
+            android:textColor="@color/white"
+
+
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:dropDownVerticalOffset="40dp"
+        android:id="@+id/sp_sort_choose_band"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+
+    </android.support.v7.widget.AppCompatSpinner>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_background"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.ContentFrameLayout
+            android:id="@+id/vertical_list_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item_background"/>
+
+        <android.support.v7.widget.ContentFrameLayout
+            android:id="@+id/sort_content_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="2.5"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>
